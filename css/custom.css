@@ -34,7 +34,7 @@ html {
 }
 
 .card-deck .card{
-    min-width: 220px;
+    min-width: 250px;
     
 }
 
@@ -44,10 +44,34 @@ html {
 }
 
 .card-block{
-    min-height: 220px;
+    min-height: 250px;
     
 }
 
 .active{
     border-bottom: 1px solid black;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-color: #fafafa; /* Light background for Instagram-like feel */
+}
+
+
+.feed {
+    margin-top: 20px; /* Space for fixed header */
+}
+
+.card {
+    border: none; /* Remove default border */
+    border-radius: 10px;
 }
