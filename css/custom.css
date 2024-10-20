@@ -63,15 +63,15 @@ html {
 }
 
 body {
-    background-color: #fafafa; /* Light background for Instagram-like feel */
+    background-color: #fafafa; 
 }
 
 
 .feed {
-    margin-top: 20px; /* Space for fixed header */
+    margin-top: 20px; 
 }
 
 .card {
-    border: none; /* Remove default border */
+    border: none; 
     border-radius: 10px;
 }
